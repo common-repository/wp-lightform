@@ -1,0 +1,73 @@
+/* General Form Layout */
+form#lightform {
+	text-align: left;
+}
+
+#lightform label {
+	display: block;
+	margin-top : 8px;
+	width: 100%;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #999;
+}
+
+#lightform input {
+	margin: 0;
+}
+
+#lightform img {
+    float: none;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+#lightform textarea {
+  overflow: auto;
+  border: none;
+}
+
+.blue {
+	color: #0099CC;
+	font-weight: bold;
+}
+
+/* Congratulation message */
+.msgsent {
+	background: transparent url(../images/msgsent.gif) no-repeat top left;
+}
+
+/* Error message */
+.msgerror {
+	background: transparent url(../images/msgerror.gif) no-repeat top left;
+}
+
+.msgsent p, .msgerror p {
+	color:#999;
+	margin-left: 45px;
+}
+
+.msgsent h2, .msgerror h2 {
+	color:#555;
+	margin-left: 45px;
+}
+
+.poweredby {
+	padding-left: 20px;
+	color: #999;
+}
+
+/* AJAX Div's */
+#log {
+	margin-top: 10px;
+}
+ 
+#log_res {
+	overflow: auto;
+}
+ 
+#log_res.ajax-loading {
+	padding: 20px 0;
+	background: url(../images/spinner.gif) no-repeat 0 0;
+}
